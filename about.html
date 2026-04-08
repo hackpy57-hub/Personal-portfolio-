@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; text-decoration: none; border: none; outline: none; }
+        :root { --bg-color: #081b29; --second-bg-color: #112e42; --text-color: #ededed; --main-color: #00abf0; }
+        body { background: var(--bg-color); color: var(--text-color); }
+        .header { position: fixed; top: 0; left: 0; width: 100%; padding: 20px 10%; background: rgba(8, 27, 41, 0.9); backdrop-filter: blur(10px); display: flex; justify-content: space-between; align-items: center; z-index: 100; }
+        .logo { font-size: 25px; color: var(--text-color); font-weight: 700; }
+        .navbar a { font-size: 18px; color: var(--text-color); font-weight: 500; margin-left: 35px; transition: .3s; }
+        .navbar a:hover, .navbar a.active { color: var(--main-color); }
+        .about { display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 100vh; padding: 100px 10% 20px; }
+        .heading { font-size: 50px; margin-bottom: 2rem; }
+        .heading span { color: var(--main-color); }
+        .about-content { text-align: center; max-width: 800px; }
+        .about-content p { font-size: 18px; line-height: 1.6; color: #ccc; margin-bottom: 2rem; }
+        .btn { display: inline-block; padding: 12px 28px; background: var(--main-color); border-radius: 40px; color: var(--bg-color); font-weight: 600; box-shadow: 0 0 10px var(--main-color); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>I am a passionate Software Engineer and student. I have a deep interest in cybersecurity and modern web development. My goal is to create secure and visually stunning digital experiences.</p>
+            <a href="index.html" class="btn">Learn More</a>
+        </div>
+    </section>
+</body>
+              </html>
+              
